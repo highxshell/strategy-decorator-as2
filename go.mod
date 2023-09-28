@@ -1,0 +1,1 @@
+module strategy-as1
