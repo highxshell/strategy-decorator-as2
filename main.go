@@ -3,8 +3,8 @@ package main
 import "strategy-as1/soldier_strategy"
 
 func main() {
-	soldier := soldier_strategy.GetConfig()
-	singletonSoldier := soldier_strategy.GetConfig()
+	soldier := soldier_strategy.GetBasicSoldier()
+	singletonSoldier := soldier_strategy.GetBasicSoldier()
 	basicSoldier := soldier
 	BasicSoldier1 := singletonSoldier
 	bowSoldier := soldier_strategy.BowSoldier{Soldier: basicSoldier}
