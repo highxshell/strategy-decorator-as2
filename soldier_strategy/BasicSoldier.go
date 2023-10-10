@@ -15,7 +15,7 @@ func (b basicSoldier) Info() {
 }
 
 func (b basicSoldier) Attack() int {
-	return 1
+	return 10
 }
 
 func (b basicSoldier) HealthPoints() int {
